@@ -1,16 +1,24 @@
 # mcf_maps_practice
 
-A new Flutter project.
+A Flutter package for Google Maps functionalities.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+ - Display Google Maps with customizable markers and polylines.
+- Retrieve directions and polyline data between two locations.
+- Search for places using Google Places API.
+- Platform-specific code for Android and iOS.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Getting started
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To use this package, add `mcf_flutter_maps` as a dependency in your `pubspec.yaml` file.
+
+
+## Usage
+
+example:
+
+```dart
+     SourceDestination()
+```
